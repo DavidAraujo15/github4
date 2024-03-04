@@ -1,0 +1,745 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "comandos_de_continuidade",
+              "type": "comandos_de_continuidade"
+            }
+          ],
+          "name": "intencao_de_continuidade",
+          "samples": [
+            "{comandos_de_continuidade}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "comandos_diretos",
+              "type": "comandos_diretos"
+            }
+          ],
+          "name": "intencao_direta",
+          "samples": [
+            "{comandos_diretos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "comandos_de_finalizacao",
+              "type": "comandos_de_finalizacao"
+            }
+          ],
+          "name": "intencao_de_finalizacao",
+          "samples": [
+            "{comandos_de_finalizacao}"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "comandos_de_espera",
+              "type": "comandos_de_espera"
+            }
+          ],
+          "name": "intencao_de_espera",
+          "samples": [
+            "{comandos_de_espera}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "desligar o led"
+                ],
+                "value": "desligar led"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar o led"
+                ],
+                "value": "ligar led"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar ar condicionado"
+                ],
+                "value": "desligar split"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar ar condiconado"
+                ],
+                "value": "ligar split"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desliga a tv"
+                ],
+                "value": "desligar tv"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "liga a tv"
+                ],
+                "value": "ligar tv"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a luz do jardim"
+                ],
+                "value": "desligar jardim"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligue a luz do jardim"
+                ],
+                "value": "ligar jardim"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "volte"
+                ],
+                "value": "voltar"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligue a tv do quarto",
+                  "desligar a tv do quarto"
+                ],
+                "value": "desligar tv quarto"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligue a tv do quarto",
+                  "ligar tv do quarto"
+                ],
+                "value": "ligar tv quarto"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "baixar volume"
+                ],
+                "value": "volume menos"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "aumentar volume"
+                ],
+                "value": "volume mais"
+              }
+            },
+            {
+              "name": {
+                "value": "selecionar"
+              }
+            },
+            {
+              "name": {
+                "value": "play"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "pra baixo"
+                ],
+                "value": "para baixo"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "pra cima"
+                ],
+                "value": "para cima"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "pra direita"
+                ],
+                "value": "para direita"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "pra esquerda"
+                ],
+                "value": "para esquerda"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "abra prime video",
+                  "abrir prime video"
+                ],
+                "value": "prime video"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "abra netflix",
+                  "abrir netflix"
+                ],
+                "value": "netflix"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar televisão da sala",
+                  "ligue tv da sala"
+                ],
+                "value": "ligar tv sala"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligue tv da sala",
+                  "desligar televisão da sala"
+                ],
+                "value": "desligar tv sala"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "centralizar"
+                ],
+                "value": "centralizar mapa"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "caminhão 2"
+                ],
+                "value": "localizar caminhão 2"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "caminhão 1"
+                ],
+                "value": "localizar caminhão 1"
+              }
+            },
+            {
+              "name": {
+                "value": "localizar arraial do cabo"
+              }
+            },
+            {
+              "name": {
+                "value": "localizar buzios"
+              }
+            },
+            {
+              "name": {
+                "value": "localizar cabo frio"
+              }
+            },
+            {
+              "name": {
+                "value": "localizar praia do pontal do atalaia"
+              }
+            },
+            {
+              "name": {
+                "value": "localizar praia das dunas"
+              }
+            },
+            {
+              "name": {
+                "value": "localizar praia do forte"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "iluminar"
+                ],
+                "value": "luz"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a luz do banheiro",
+                  "apague a luz do banheiro",
+                  "desligue a luz do banheiro"
+                ],
+                "value": "desligar banheiro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligue a luz do banheiro",
+                  "acender luz do banheiro",
+                  "ligar luz do banheiro"
+                ],
+                "value": "ligar banheiro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar luz do quarto e da cozinha",
+                  "desligue luz do quarto e da cozinha",
+                  "desligue luz da cozinha e do quarto",
+                  "desligar luz da cozinha e do quarto",
+                  "apagar luz do quarto e da cozinha"
+                ],
+                "value": "desligar quarto cozinha"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "acender a luz da cozinha e do quarto",
+                  "acender a luz do quarto e da cozinha",
+                  "ligar a luz do quarto e da cozinha",
+                  "ligar a luz da cozinha e do quarto",
+                  "ligue a luz da cozinha e do quarto",
+                  "ligue a luz do quarto e da cozinha"
+                ],
+                "value": "ligar quarto cozinha"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar o computador",
+                  "desligue o computador"
+                ],
+                "value": "desligar computador"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar o computador",
+                  "ligue o computador"
+                ],
+                "value": "ligar computador"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar o cinema",
+                  "desligue o cinema"
+                ],
+                "value": "desligar cinema"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar o cinema",
+                  "ligue o cinema"
+                ],
+                "value": "ligar cinema"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a fita da sala",
+                  "apague a fita da sala",
+                  "desligue a fita da sala"
+                ],
+                "value": "desligar fita sala"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar a fita da sala",
+                  "acenda a fita da sala",
+                  "ligue a fita da sala"
+                ],
+                "value": "ligar fita sala"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a fita da cozinha",
+                  "desligue a fita da cozinha",
+                  "apague a fita da cozinha"
+                ],
+                "value": "desligar fita cozinha"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar a fita da cozinha",
+                  "acenda a fita da cozinha",
+                  "ligue a fita da cozinha"
+                ],
+                "value": "ligar fita cozinha"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligue as luzes",
+                  "apague as luzes",
+                  "desligar as luzes"
+                ],
+                "value": "desligar luzes"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar as luzes",
+                  "acenda as luzes",
+                  "ligue as luzes"
+                ],
+                "value": "ligar luzes"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar as fitas",
+                  "desligue as fitas",
+                  "apague as fitas"
+                ],
+                "value": "desligar fitas"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "acenda as fitas",
+                  "ligar as fitas",
+                  "ligue as fitas"
+                ],
+                "value": "ligar fitas"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a fita do banheiro",
+                  "apague a fita do banheiro",
+                  "desligue a fita do banheiro"
+                ],
+                "value": "desligar fita banheiro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "acenda a fita do banheiro",
+                  "ligue a fita do banheiro"
+                ],
+                "value": "ligar fita banheiro"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar o vento",
+                  "desligar o ventilador",
+                  "desligue o ventilador"
+                ],
+                "value": "desligar ventilador"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "refresque",
+                  "refrigere",
+                  "ligue o ventilador",
+                  "ventilar"
+                ],
+                "value": "ligar ventilador"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar o modo automático",
+                  "desligue o modo automático"
+                ],
+                "value": "desligar modo automático"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "acionar modo automático",
+                  "ligue o modo automático"
+                ],
+                "value": "ligar modo automático"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "apague luz externa",
+                  "desligue luz externa",
+                  "desligar luz externa"
+                ],
+                "value": "desligar externa"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "acenda luz externa",
+                  "ligue luz externa",
+                  "ligar luz externa"
+                ],
+                "value": "ligar externa"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a luminária",
+                  "apague a luminária",
+                  "desligue a luminária"
+                ],
+                "value": "desligar luminária"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar a luminária",
+                  "acenda a luminária",
+                  "ligue a luminária"
+                ],
+                "value": "ligar luminária"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a fita do quarto",
+                  "apague a fita do quarto",
+                  "desligue a fita do quarto"
+                ],
+                "value": "desligar fita quarto"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "acenda a fita do quarto",
+                  "ligue a fita do quarto",
+                  "ligar fita do quarto"
+                ],
+                "value": "ligar fita quarto"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a luz da cozinha",
+                  "desligue a luz da cozinha",
+                  "apagar a luz da cozinha"
+                ],
+                "value": "desligar cozinha"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar a luz da cozinha",
+                  "acender a luz da cozinha",
+                  "ligue a luz da cozinha"
+                ],
+                "value": "ligar cozinha"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "desligar a luz da sala",
+                  "apagar a luz da sala",
+                  "desligue a luz da sala"
+                ],
+                "value": "desligar sala"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligue a luz da sala",
+                  "acender a luz da sala",
+                  "ligar luz da sala"
+                ],
+                "value": "ligar sala"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "ligar a luz do quarto",
+                  "ligue a luz do quarto",
+                  "acender a luz do quarto"
+                ],
+                "value": "ligar quarto"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "apague a luz do quarto",
+                  "desligar a luz do quarto",
+                  "desligue a luz do quarto"
+                ],
+                "value": "desligar quarto"
+              }
+            },
+            {
+              "name": {
+                "value": "sim"
+              }
+            }
+          ],
+          "name": "comandos_de_continuidade"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "fazer verificação geral",
+                  "fazer verificação da casa",
+                  "o que está ligado",
+                  "o que está em funcionamento",
+                  "verificar status da casa",
+                  "verificar casa",
+                  "verificação geral da casa",
+                  "verifique",
+                  "verifique tudo",
+                  "verifique a casa",
+                  "verifique o que está ligado"
+                ],
+                "value": "verificar status"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "clarear",
+                  "ligar"
+                ],
+                "value": "acender"
+              }
+            },
+            {
+              "name": {
+                "synonyms": [
+                  "qual a temperatura dentro de casa",
+                  "qual a temperatura da casa"
+                ],
+                "value": "temperatura"
+              }
+            }
+          ],
+          "name": "comandos_diretos"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "mais nada",
+                  "obrigado",
+                  "nada"
+                ],
+                "value": "não"
+              }
+            }
+          ],
+          "name": "comandos_de_finalizacao"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "synonyms": [
+                  "espere mais um pouco",
+                  "espere mais",
+                  "aguarde"
+                ],
+                "value": "espere"
+              }
+            }
+          ],
+          "name": "comandos_de_espera"
+        }
+      ],
+      "invocationName": "atenção"
+    }
+  }
+}
